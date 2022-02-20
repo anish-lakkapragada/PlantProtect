@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color.darkPink, Color.lightGreen]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            LinearGradient(gradient: Gradient(colors: [Color.lightBlue, Color.lightGreen]), startPoint: .topLeading, endPoint: .bottomTrailing)
             
             VStack{
                 VStack{
@@ -36,14 +36,15 @@ struct ContentView: View {
                         if let imageClass = classifier.imageClass {
                             HStack{
                                 Text("Plant:")
-                                    .font(.caption)
+                                    .font(.title)
                                 Text(imageClass)
+                                    .font(.title)
                                     .bold()
                             }
                         } else {
                             HStack{
-                                Text("Plant: NA")
-                                    .font(.caption)
+                                Text("Plant: N/A")
+                                    .font(.title)
                             }
                         }
                     }
@@ -51,6 +52,8 @@ struct ContentView: View {
                     .padding()
                     
                 }
+                Spacer()
+                    .frame(height: 100)
                 Rectangle()
                     .strokeBorder()
                     .font(.title)
@@ -59,7 +62,7 @@ struct ContentView: View {
                     .background(Color.white)
                     .cornerRadius(10)
                     .shadow(color: Color.white, radius: 20)
-                    .frame(width: 320, height: 640)
+                    .frame(width: 320, height: 199)
                     .overlay(
                         Group {
                             if uiImage != nil {
@@ -69,6 +72,8 @@ struct ContentView: View {
                             }
                         }
                     )
+                Spacer()
+                    .frame(height: 200)
                 HStack {
                     Image(systemName: "photo")
                         .onTapGesture {
@@ -122,5 +127,5 @@ private let itemFormatter: DateFormatter = {
 }()
 extension Color {
     static let lightGreen = Color(red: 105 / 255, green: 214 / 255, blue: 134 / 255)
-    static let darkPink = Color(red: 255 / 255, green: 166 / 255, blue: 240 / 255)
+    static let lightBlue = Color(red: 3 / 255, green: 219 / 255, blue: 252 / 255)
 }
