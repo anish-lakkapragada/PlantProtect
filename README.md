@@ -3,9 +3,11 @@
 
 ## Demo 
 
-<iframe style="text-align: center" width="800" height="500"
-			src="https://www.youtube.com/embed/NB7qTftPncA">
-</iframe>
+
+
+https://user-images.githubusercontent.com/68448458/154864607-3ae96143-a189-4617-89f9-44c95253854c.mp4
+
+
 
 ## Inspiration
 
