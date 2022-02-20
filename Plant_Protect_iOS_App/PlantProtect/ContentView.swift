@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Plant
+//  PlantProtect
 //
 //  Created by Sanchitha Dinesh on 2/19/22.
 //
@@ -109,6 +109,8 @@ struct ContentView: View {
                 .padding()
             }
         }
+        .ignoresSafeArea()
+        .navigationBarHidden(true)
     }
 }
 

@@ -31,7 +31,9 @@ struct HomeView: View {
                 }
                 
             }.ignoresSafeArea()
+            
         }
+        
     }
 }
 
