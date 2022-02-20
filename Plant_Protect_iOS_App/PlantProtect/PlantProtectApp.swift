@@ -1,6 +1,6 @@
 //
-//  PlantApp.swift
-//  Plant
+//  PlantProtectApp.swift
+//  PlantProtect
 //
 //  Created by Sanchitha Dinesh on 2/19/22.
 //

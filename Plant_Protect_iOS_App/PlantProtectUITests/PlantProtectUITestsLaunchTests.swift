@@ -1,13 +1,13 @@
 //
-//  PlantUITestsLaunchTests.swift
-//  PlantUITests
+//  PlantProtectUITestsLaunchTests.swift
+//  PlantProtectUITests
 //
 //  Created by Sanchitha Dinesh on 2/19/22.
 //
 
 import XCTest
 
-class PlantUITestsLaunchTests: XCTestCase {
+class PlantProtectUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
