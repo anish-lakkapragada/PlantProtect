@@ -3,7 +3,9 @@
 
 ## Demo 
 
-https://user-images.githubusercontent.com/68448458/154864463-ba8c0a2c-31e9-4276-b459-36cdb0dcdfe7.mov
+<iframe style="text-align: center" width="800" height="500"
+			src="https://www.youtube.com/embed/NB7qTftPncA">
+</iframe>
 
 ## Inspiration
 
