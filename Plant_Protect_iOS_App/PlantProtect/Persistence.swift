@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  Plant
+//  PlantProtect
 //
 //  Created by Sanchitha Dinesh on 2/19/22.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Plant")
+        container = NSPersistentContainer(name: "PlantProtect")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
